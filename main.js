@@ -11,3 +11,8 @@ function greet(name) {
 
 console.log(greet('Alice')); // Output: Hello, Alice!
 console.log(greet('Bob')); // Output: Hello, Bob!
+
+// template literals
+const user = 'Charlie';
+const message = `Welcome, ${user}!`;
+console.log(message); // Output: Welcome, Charlie!
