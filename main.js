@@ -1,18 +1,17 @@
-// learn javascript
-console.log('Hello, World!');
-// This is a simple JavaScript program that prints a message to the console
-// It demonstrates the basic syntax of JavaScript
-// You can run this code in a web browser's console or in a Node.js environment
+// console.log("Sebelum Pembanding");
+// if (1 === 3) {
+//   console.log("Benar");
+// }
+// console.log("Sesudah Pembanding");
+// Output:
+// Sebelum Pembanding
+// Sesudah Pembanding
 
-// method and argument javascript
-function greet(name) {
-  return 'Hello, ' + name + '!';
+let nilai = Math.random();
+console.log(`Nilai: ${nilai}`);
+if (nilai >= 0.5) {
+  console.log("Nilai lebih besar atau sama dengan 0.5");
 }
-
-console.log(greet('Alice')); // Output: Hello, Alice!
-console.log(greet('Bob')); // Output: Hello, Bob!
-
-// template literals
-const user = 'Charlie';
-const message = `Welcome, ${user}!`;
-console.log(message); // Output: Welcome, Charlie!
+if (nilai < 0.5) {
+  console.log("Nilai lebih kecil dari 0.5");
+}
